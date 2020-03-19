@@ -1,0 +1,79 @@
+body{ font-family:arial; }
+.nav {
+display: flex;
+justify-content: space-around; 
+background: black;
+margin-left: 5%;
+margin-right: 5%
+}
+.nav a {
+color:#fff;
+padding:25px 45px;
+text-decoration:none;
+text-align:center;
+}
+.nav a:hover { background:#5c8db7; }
+@media all and (max-width: 800px) {
+.nav { justify-content: space-around;}
+.nav a{ flex-grow:1; }
+}
+
+@media all and (max-width: 500px) {
+.nav { flex-direction: column; }
+}
+
+.forest {
+	display: flex;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5px;
+}
+
+.text {
+	width: 77%;
+	display: flex;
+	margin-left: 5%;
+	margin-top: 5px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+img {
+	max-width: 99%;
+}
+
+.right {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: flex-end;
+	line-height: 25px;
+	padding-right: 25px;
+	margin-top: 25px;
+	margin-right: 5%;
+	background: silver;
+}
+
+.footer {
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90EE90;
+    height: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+
